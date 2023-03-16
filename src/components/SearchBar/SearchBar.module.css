@@ -1,0 +1,30 @@
+.searchInput{
+    border: 2px solid #2D2D2D;
+    border-radius: 15px 0px 0px 15px;
+    background-color: #F7D842;
+    height: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    padding-left: 10px;
+    color: #2D2D2D;
+}
+
+.searchButton{
+    border: 2px solid #2D2D2D;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #F7D842;
+    height: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    padding: 0 20px;
+    color: #2D2D2D;
+}
+
+.bar{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}

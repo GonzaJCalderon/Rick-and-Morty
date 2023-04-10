@@ -1,7 +1,10 @@
 const { Router } = require("express");
 const getCharById = require("../controllers/getCharById");
 const getCharDetail = require("../controllers/getCharDetail");
-let favs = require("../utils/favs");
+//let favs = require("../utils/favs");
+const { postFav} = require ('../controllers/postFav.js')
+const { getFavs} = require ('../controllers/getFavs.js')
+const { deletetFav} = require ('../controllers/deleteFav.js')
 
 const router = Router();
 
